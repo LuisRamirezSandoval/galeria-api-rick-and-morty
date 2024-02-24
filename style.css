@@ -1,0 +1,24 @@
+body{
+    /* background-color: violet; */
+    background-image: linear-gradient(to bottom right, #ffcccc, #cc99ff);
+}
+#users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Para centrar las imágenes horizontalmente */
+}
+
+#users div {
+    margin: 10px; /* Espacio entre las imágenes */
+    text-align: center; /* Para centrar el texto debajo de las imágenes */
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+/* #users img { */
+    /* width: 200px; Ancho de las imágenes */
+    /* height: auto; Para mantener la proporción de aspecto */
+/* } */
